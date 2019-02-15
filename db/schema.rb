@@ -12,12 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_02_15_161914) do
 
-  create_table "blog_posts", force: :cascade do |t|
-    t.string "title"
-    t.integer "views"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+
 
   create_table "people", force: :cascade do |t|
     t.string "name"
