@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :blog_posts
   get 'greetings/hello'
   get 'welcome' => 'pages#home'
   get 'search' => 'pages#search'
